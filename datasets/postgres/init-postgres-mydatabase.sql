@@ -1,12 +1,12 @@
 -- Connect to the default database (if not already connected)
 \c postgres
 
--- Drop the 'MyDatabase' database if it exists and then create it.
-DROP DATABASE IF EXISTS "MyDatabase";
-CREATE DATABASE "MyDatabase";
+-- Drop the 'mydatabase' database if it exists and then create it.
+DROP DATABASE IF EXISTS "mydatabase";
+CREATE DATABASE "mydatabase";
 
 -- Now connect to the new database.
-\c "MyDatabase"
+\c "mydatabase"
 
 -- ======================================================
 -- Table: customers

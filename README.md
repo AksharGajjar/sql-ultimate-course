@@ -1,3 +1,20 @@
+# TLDR Setup
+
+Commands to get this up and running quickly in Github Codespaces
+
+```bash
+# Run the Docker image and initialize the postgres database
+docker-compose up -d
+
+# Connect to the default postgres database
+docker exec -it sql-practice-db psql -U postgres
+
+# Or connect to a specific database
+docker exec -it sql-practice-db psql -U postgres -d mydatabase
+docker exec -it sql-practice-db psql -U postgres -d salesdb
+```
+
+
 # SQL Ultimate Course
 
 Welcome to the **SQL Ultimate Course** repository! 🚀  
